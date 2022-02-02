@@ -75,3 +75,10 @@ for(;i>=0;i--){
 array4.forEach(function(element){
     console.log("iididi "+element);
 });
+
+//fecha
+let today = new Date();
+let october = new Date(2020,9,28);
+console.log(today);
+console.log(october);
+console.log(october.getDate());
